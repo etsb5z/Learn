@@ -1,0 +1,19 @@
+{
+  "name": "express_mongodb",
+  "version": "1.0.0",
+  "description": "imooc的教程测试",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "jade": "^1.11.0",
+    "moment": "^2.11.2",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

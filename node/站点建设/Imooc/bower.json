@@ -1,0 +1,23 @@
+{
+  "name": "express+mongodb",
+  "description": "express+mongodb test by using bootstrap&jquery",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "bootstrap",
+    "jquery"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
