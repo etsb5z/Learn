@@ -1,19 +1,26 @@
 {
   "name": "express_mongodb",
   "version": "1.0.0",
-  "description": "imooc的教程测试",
+  "description": "imooc的教程测试 movie",
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.15.0",
-    "jade": "^1.11.0",
     "moment": "^2.11.2",
+    "jade": "^1.11.0",
+    "mongoose": "^4.4.4",
+    "underscore": "^1.8.3",
     "express": "^4.13.4",
-    "mongoose": "^4.4.4"
+    "mongodb": "^2.1.7"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": [
+    "express",
+    "mongodb",
+    "imooc"
+  ],
+  "author": "etsb.5z",
   "license": "ISC"
 }

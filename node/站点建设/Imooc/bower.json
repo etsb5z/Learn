@@ -1,11 +1,15 @@
 {
-  "name": "express+mongodb",
+  "name": "express+mongoDB",
   "description": "express+mongodb test by using bootstrap&jquery",
   "main": "",
   "moduleType": [],
   "keywords": [
-    "bootstrap",
-    "jquery"
+    "express",
+    "mongodb",
+    "imooc"
+  ],
+  "authors": [
+    "etsb.5z"
   ],
   "license": "MIT",
   "homepage": "",
@@ -14,6 +18,7 @@
     "**/.*",
     "node_modules",
     "bower_components",
+    "public/libs",
     "test",
     "tests"
   ],
