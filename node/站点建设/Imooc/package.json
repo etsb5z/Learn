@@ -4,15 +4,25 @@
   "description": "imooc的教程测试 movie",
   "main": "app.js",
   "dependencies": {
+    "bcryptjs": "^2.3.0",
     "body-parser": "^1.15.0",
-    "moment": "^2.11.2",
-    "jade": "^1.11.0",
-    "mongoose": "^4.4.4",
-    "underscore": "^1.8.3",
+    "connect-mongo": "~0.7.0",
+    "cookie-parser": "^1.4.1",
     "express": "^4.13.4",
-    "mongodb": "^2.1.7"
+    "express-session": "^1.13.0",
+    "jade": "^1.11.0",
+    "moment": "^2.11.2",
+    "mongodb": "^2.1.7",
+    "mongoose": "^4.4.4",
+    "morgan": "^1.7.0",
+    "underscore": "^1.8.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^2.2.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-nodemon": "^0.4.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -23,17 +23,18 @@ var MovieSchema = new mongoose.Schema({
 
 //每次在存储数据之前都会来调用一下这个方法
 MovieSchema.pre('save', function (next) {
-    //数据是否是新添加的
-    if (this.isNew) {
-        this.meta.createAt = this.meta.updateAt = Date.now()
-    } else {
-        this.meta.updateAt = Date.now()
-    }
+  //数据是否是新添加的
+  if (this.isNew) {
+      this.meta.createAt = this.meta.updateAt = Date.now()
+  } else {
+      this.meta.updateAt = Date.now()
+  }
 
-    next();
+  next();
 });
 
 
+//添加静态方法
 MovieSchema.statics = {
     fetch: function (cd) { // 取出数据库里所有数据
         return this

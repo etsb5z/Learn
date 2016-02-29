@@ -6,4 +6,7 @@ html
 		include ./includes/head
 	body
 		include ./includes/header
-		block content
+		.page-body
+			block content
+			include ./includes/footer
+			block script
